@@ -17,6 +17,7 @@ public class MySort {
         quickSort(Arrays.copyOf(arr, arr.length));
 //        shellSort(Arrays.copyOf(arr,arr.length));
 //        mergeSort(Arrays.copyOf(arr,arr.length));
+          new HeapSort(arr).sort();
 //        for(int i :arr){
 //            System.out.println(i);
 //        }
